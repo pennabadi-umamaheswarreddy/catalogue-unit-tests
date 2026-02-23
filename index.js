@@ -1,4 +1,4 @@
-const app = require('../uma-rbac/server');
+const app = require('./server');
 const pino = require('pino');
 
 const logger = pino({
